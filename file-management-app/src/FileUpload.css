@@ -1,0 +1,46 @@
+.file-upload-container {
+    background-color: #2c2f33;
+    padding: 40px;
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+  .file-upload-card {
+    background-color: #23272a;
+    border: 1px solid #7289da;
+  }
+  
+  .file-upload-card .card-title {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .file-upload-card .form-label {
+    color: #b9bbbe;
+  }
+  
+  .file-upload-card .form-control {
+    background-color: #2c2f33;
+    color: #ffffff;
+    border: 1px solid #7289da;
+  }
+  
+  .file-upload-card .form-control::placeholder {
+    color: #b9bbbe;
+  }
+  
+  .file-upload-card .btn-primary {
+    background-color: #7289da;
+    border: none;
+  }
+  
+  .file-upload-card .btn-primary:hover {
+    background-color: #5b6eae;
+  }
+  
+  .upload-status {
+    color: #b9bbbe;
+    margin-top: 10px;
+  }
+  

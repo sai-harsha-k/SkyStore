@@ -1,0 +1,60 @@
+.file-list-container {
+    background-color: #2c2f33;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .file-card {
+    background-color: #23272a;
+    color: #ffffff;
+    border: 1px solid #7289da;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .file-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .file-title {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  
+  .file-description {
+    font-size: 0.9em;
+    color: #b9bbbe;
+  }
+  
+  .file-modal {
+    background-color: #2c2f33;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .file-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .file-modal h2 {
+    color: #ffffff;
+  }
+  
+  .file-modal p {
+    color: #b9bbbe;
+  }
+  
+  .button-close {
+    background-color: #7289da;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .button-close:hover {
+    background-color: #5b6eae;
+  }
+  
